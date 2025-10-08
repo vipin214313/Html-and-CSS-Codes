@@ -109,3 +109,57 @@ Closing Tag	Marks the end of the element. Example: </p>
     • An inline element → it stays in line with text (doesn’t start a new line).
     • Used to style or group small parts of text.
      Mostly used with CSS to change color, size, or font of text.
+
+     🟩 What is the <p> Tag in HTML?
+     The <p> tag defines a paragraph in HTML.
+     It's a block-level element that starts on a new line and automatically adds space before and after the content.
+     ✅ Syntax:
+     <p>Your paragraph content here.</p>
+     🔁 Using <br> for Line Breaks
+     The <br> tag is used for manual line breaks within a paragraph.it is inline element.
+     ✅ Example:
+     <p>
+
+     🧱 Using <hr> for Horizontal Lines
+     The <hr> tag creates a horizontal rule to visually separate content.it is block level element.
+     ✅ Example:
+     <h1>Welcome</h1>
+     <p>Paragraph before the line.</p>
+     <hr>
+     <p>Paragraph after the line.</p>
+     Tag	Purpose	Default Behavior
+     <p>	Defines a paragraph	Block, auto spacing
+     <br>	Inserts a line break within text	Inline, no space added
+     <hr>	Inserts a horizontal rule	Block, separator line
+     align	Aligns paragraph text (deprecated)	Use CSS instead
+     <pre>	Displays preformatted text	Preserves spaces/lines
+     Tag	Purpose	Notes
+     <br>	Line break	No closing tag; inline
+     <hr>	Horizontal line	Visual separator; no closing tag
+     <b>	Bold text	Styling only (not semantic)
+     <i>	Italic text	Use for emphasis
+     <u>	Underlined text	Deprecated for styling — use CSS
+     <sup>	Superscript	Used in math/footnotes (X2)
+     <sub>	Subscript	Used in chemical formulas (H2O)
+     <pre>	Preformatted block text	Preserves formatting
+     🔶 2. HTML Formatting Tags (Quick Reference)
+     Tag	Description	Example Output
+     <b>	Bold (no meaning)	Bold
+     <strong>	Important (bold)	Strong
+     <i>	Italic (no meaning)	Italic
+     <em>	Emphasized (italic)	Emphasized
+     <mark>	Highlighted text	Highlight
+     <u>	Underlined text	Underline
+     <small>	Small-sized text	Small
+     <del>	Deleted text	Deleted
+     <ins>	Inserted text	Inserted
+     <sub>	Subscript	H2O
+     <sup>	Superscript	x2
+     <code>	Inline code	x = 10;
+     <pre>	Preserves spacing	<pre> Line 1 </pre>
+     <kbd>	Keyboard input	Ctrl + S
+     <abbr>	Abbreviation tooltip	HTML
+     <q>	Inline quote	Quote
+     <blockquote>	Large block quote	Indented quote
+     <cite>	Citation	– Newton
+     
