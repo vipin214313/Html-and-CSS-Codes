@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Layout Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+    }
+    .post {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    .post span {
+      color: gray;
+      font-size: 14px;
+    }
+    .footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+<!-- Block elements for structure -->
+  <div class="header">
+    <h1>My Blog</h1>
+  </div>
+
+<div class="content">
+    <div class="post">
+      <h2>First Post</h2>
+      <!-- Inline elements for small text styling -->
+      <p>Written by <span>Admin</span> on <span>Sept 5, 2025</span></p>
+      <p>This is an example of using <strong>block elements</strong> for layout and <em>inline elements</em> for styling text.</p>
+    </div>
+
+<div class="post">
+      <h2>Second Post</h2>
+      <p>Written by <span>Guest</span> on <span>Sept 4, 2025</span></p>
+      <p>Notice how <span style="color:red;">inline elements</span> stay in the same line, but block elements create sections.</p>
+    </div>
+
+  </div>
+
+<div class="footer">
+    <p>&copy; 2025 My Blog</p>
+  </div>
+</body>
+</html>

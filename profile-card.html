@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block vs Inline Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+/* Block elements */
+    .profile-card {
+      border: 2px solid #333;
+      width: 300px;
+      padding: 15px;
+      border-radius: 10px;
+    }
+h2, p {
+      margin: 10px 0;
+    }
+/* Inline elements */
+    .tags span {
+      background: lightblue;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      display: inline-block; /* inline-block for styling */
+    }
+  </style>
+</head>
+<body>
+
+<div class="profile-card">
+    <!-- Block elements -->
+    <h2>Vipin Maurya</h2>
+    <p>Web Developer | UI/UX Enthusiast</p>
+    <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit. 
+    I love <em>HTML, CSS, JavaScript</em> and building projects.</p>
+
+<!-- Inline elements -->
+    <div class="tags">
+      <span>#HTML</span>
+      <span>#CSS</span>
+      <span>#JavaScript</span>
+      <span>#React</span>
+    </div>
+
+  </div>
+</body>
+</html>
