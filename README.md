@@ -74,38 +74,38 @@ Content	Actual data/content shown in the browser. Example: Hello Geeks!
 Closing Tag	Marks the end of the element. Example: </p>
 
 
-🔘 Empty HTML Elements
-Empty elements are HTML tags without content and without closing tags. These are self-closing.
-Empty Element	Purpose
-<br>	Line break
-<hr>	Horizontal line
-<input>	Input field (form element)
-<img>	Image display
-<link>	Link external resources
-<meta>	Metadata definition
+    🔘 Empty HTML Elements
+      Empty elements are HTML tags without content and without closing tags. These are self-closing.
+     Empty Element	Purpose
+        <br>	Line break
+        <hr>	Horizontal line
+       <input>	Input field (form element)
+        <img>	Image display
+       <link>	Link external resources
+      <meta>	Metadata definition
 
-Block-level Element:
+    Block-level Element:
     • An HTML element that always starts on a new line.
     • It takes up the full width available (the entire width of its parent container).
     • Can contain both block-level and inline elements inside it.
     • Commonly used to create the main structure of the webpage.
     • Browsers add a line break before and after block-level elements by default.
     
-Examples:<div>, <p>, <h1>–<h6>, <ul>, <ol>, <li>, <header>, <footer>, <section>, <article>, <form>, <table>, <main>, <nav>, <figure>
+     Examples:<div>, <p>, <h1>–<h6>, <ul>, <ol>, <li>, <header>, <footer>, <section>, <article>, <form>, <table>, <main>, <nav>, <figure>
 
-Inline Element:
+   Inline Element:
     • An HTML element that does not start on a new line; it flows inline with the surrounding content.
     • It only takes up as much width as its content requires.
     • Can only contain text or other inline elements (cannot contain block-level elements).
     • Used to style parts of text or small pieces inside a block element.
     
-Examples:<span>, <a>, <strong>, <em>, <img>, <label>, <input>, <sub>, <sup>
-📌 1. <div> (Division)
+     Examples:<span>, <a>, <strong>, <em>, <img>, <label>, <input>, <sub>, <sup>
+     📌 1. <div> (Division)
     • A block-level element → it takes up the entire line.
     • Used to group large sections of a webpage.
     • Mostly used in layout design.
-Helpful for styling and structuring content.
-📌 2. <span>
+      Helpful for styling and structuring content.
+      📌 2. <span>
     • An inline element → it stays in line with text (doesn’t start a new line).
     • Used to style or group small parts of text.
-Mostly used with CSS to change color, size, or font of text.
+     Mostly used with CSS to change color, size, or font of text.
